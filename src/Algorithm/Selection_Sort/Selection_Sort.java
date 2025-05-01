@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Selection_Sort {
    public static int smallerSearch(List<Integer> arr){
-       int smaller = arr.get(0);
+       int smaller = arr.getFirst();
        int smallerIndex = 0;
        for(int i = 1; i < arr.size(); i++){
            if(arr.get(i) < smaller){
